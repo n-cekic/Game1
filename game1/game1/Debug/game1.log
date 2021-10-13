@@ -1,4 +1,30 @@
 ﻿  Game.cpp
-  main.cpp
-  Generating Code...
-  game1.vcxproj -> E:\Projects\Game1\game1\Debug\game1.exe
+E:\test\game1\game1\Game.cpp(59,16): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+E:\test\game1\game1\Game.cpp(61,42): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\test\game1\game1\Game.cpp(63,42): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\test\game1\game1\Game.cpp(65,16): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  game1.vcxproj -> E:\test\game1\Debug\game1.exe
