@@ -53,7 +53,7 @@ void Game::update()
 
 	/*
 	* move enemy with mouse
-	*
+	*/
 	sf::Vector2i mousePos = sf::Mouse::getPosition(*this->window);
 	if (mousePos.x < 0.f)
 		mousePos.x = 0.f;
@@ -65,7 +65,7 @@ void Game::update()
 		mousePos.y = 0.f;
 	// std::cout << mousePos.x << " " << mousePos.y << std::endl;
 	this->enemy.setPosition(sf::Vector2f(mousePos));
-	*/
+	
 }
 
 void Game::render()
